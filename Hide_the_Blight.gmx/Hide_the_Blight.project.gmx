@@ -4,21 +4,44 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\snd_bug</sound>
+    <sound>sound\snd_horror</sound>
+  </sounds>
   <sprites name="sprites">
-    <sprite>sprites\sp_wall</sprite>
+    <sprite>sprites\sp_wall_dark_green</sprite>
+    <sprite>sprites\sp_wall_light_green</sprite>
+    <sprite>sprites\sp_wall_yellow</sprite>
+    <sprite>sprites\sp_wall_brown</sprite>
     <sprite>sprites\sp_spider_still</sprite>
     <sprite>sprites\sp_spider_walk</sprite>
     <sprite>sprites\sp_spider_jump</sprite>
+    <sprite>sprites\sp_bug</sprite>
+    <sprite>sprites\sp_screen_block</sprite>
+    <sprite>sprites\sp_hint</sprite>
+    <sprite>sprites\sp_tutorial</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bg_end</background>
+  </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
+    <object>objects\obj_cmd_main</object>
+    <object>objects\obj_cmd_end</object>
     <object>objects\obj_wall</object>
+    <object>objects\obj_wall_dark_green</object>
+    <object>objects\obj_wall_light_green</object>
+    <object>objects\obj_wall_yellow</object>
+    <object>objects\obj_wall_brown</object>
     <object>objects\obj_spider</object>
+    <object>objects\obj_bug</object>
+    <object>objects\obj_screen_block</object>
+    <object>objects\obj_hint</object>
+    <object>objects\obj_tutorial</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main</room>
+    <room>rooms\rm_end</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
