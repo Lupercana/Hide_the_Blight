@@ -7,6 +7,7 @@
   <sounds name="sound">
     <sound>sound\snd_bug</sound>
     <sound>sound\snd_horror</sound>
+    <sound>sound\snd_web_hit</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sp_wall_dark_green</sprite>

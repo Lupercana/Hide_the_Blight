@@ -36,7 +36,7 @@ HOOK_MOVE_SPEED = 19;
 GRAPPLE_ACCEL = 0.25; // How much to oppose existing velocities when pulled by grapple hook
 MAX_HEALTH = 5;
 STARTING_HEALTH = 3;
-GRAPPLE_CD = 1 // Seconds
+GRAPPLE_CD = 0.5 // Seconds
 
 // Member variables
 grav = START_GRAV;
@@ -202,6 +202,7 @@ if (started_hook &amp;&amp; !active)
 
     if (found)
     {
+        audio_play_sound(snd_web_hit, 2, false);
         active = true;
         // Turn off gravity while moving
         grav = 0;
